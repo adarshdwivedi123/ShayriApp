@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895411716314",
+    "firebase_url": "https://shayriapp-2f2c7.firebaseio.com",
+    "project_id": "shayriapp-2f2c7",
+    "storage_bucket": "shayriapp-2f2c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895411716314:android:6ce0217f502c6c595d25e3",
+        "android_client_info": {
+          "package_name": "com.example.shayriapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895411716314-shet2r3v0vb2gn9td9s84qj9ae6vdhav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIeO9svKrHCTkQj6CoLeZtXlPMZdM04XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895411716314-shet2r3v0vb2gn9td9s84qj9ae6vdhav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

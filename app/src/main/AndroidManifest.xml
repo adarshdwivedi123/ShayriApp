@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shayriapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NavigationDrawerItems.TermsConditions"></activity>
+        <activity android:name=".NavigationDrawerItems.PrivacyPolicy" />
+        <activity android:name=".NavigationDrawerItems.Instagram" />
+        <activity android:name=".NavigationDrawerItems.Facebook" />
+        <activity android:name=".NavigationDrawerItems.YouTube" />
+        <activity android:name=".Home" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".categories.Attitude"/>
+        <activity android:name=".categories.BestWishes"/>
+        <activity android:name=".categories.Birthday"/>
+        <activity android:name=".categories.Couple"/>
+        <activity android:name=".categories.Friendship"/>
+        <activity android:name=".categories.Funny"/>
+        <activity android:name=".categories.GOD"/>
+        <activity android:name=".categories.GoodMorning"/>
+        <activity android:name=".categories.GoodNight"/>
+        <activity android:name=".categories.Love"/>
+        <activity android:name=".categories.Romantic"/>
+        <activity android:name=".categories.ValentineDay"/>
+
+
+
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
