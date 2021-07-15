@@ -58,7 +58,7 @@ public class Romantic  extends AppCompatActivity implements View.OnClickListener
 
 
 
-        databaseReference= FirebaseDatabase.getInstance().getReference("romantic");
+        databaseReference= FirebaseDatabase.getInstance().getReference("romantics");
         myShayari=new Model();
         quotes_list=new ArrayList<>();
 
